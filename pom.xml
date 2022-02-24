@@ -20,12 +20,13 @@
         <project.build.outputEncoding>UTF-8</project.build.outputEncoding>
         <maven.compiler.release>11</maven.compiler.release>
         <mainClass>geolocator.Main</mainClass>
+        <feign.version>11.8</feign.version>
     </properties>
     <dependencies>
         <dependency>
             <groupId>io.github.openfeign</groupId>
             <artifactId>feign-jackson</artifactId>
-            <version>11.8</version>
+            <version>${feign.version}</version>
             <scope>compile</scope>
         </dependency>
         <dependency>
